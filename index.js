@@ -44,7 +44,13 @@ class Passenger {
         }.bind(this)
       );
     }
-
+    drivers(){
+      return this.trips().map(
+        function(trip){
+          return trip.drivers();
+        }
+      );
+    }
 }
 
 
