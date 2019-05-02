@@ -16,9 +16,9 @@ class Passenger {
     constructor(name) {
         this.id = ++passengerId;
         this.name = name;
-        if (driver) {
-            this.driverId = driver.id;
-        }
+        // if (driver) {
+        //     this.driverId = driver.id;
+        // }
         store.items.push(this);
     }
     setUser(user) {
