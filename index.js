@@ -62,6 +62,6 @@ class Trip {
   }.bind(this)
 
   driver(){
-    return store.dr
+
   }
 }
