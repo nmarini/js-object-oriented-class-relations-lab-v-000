@@ -56,7 +56,5 @@ class Trip {
     )
   }.bind(this)
 
-  driver(){
 
-  }
 }
