@@ -29,7 +29,7 @@ class Driver {
 let passengerId = 0;
 
 class Passenger {
-    constructor(name) {
+    constructor(name, driver) {
         this.id = ++passengerId;
         this.name = name;
         if (driver) {
