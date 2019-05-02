@@ -21,8 +21,8 @@ class Passenger {
         // }
         store.passengers.push(this);
     }
-    setUser(user) {
-        this.userId = user.id;
+    setDriver(driver) {
+        this.driverId = driver.id;
     }
 }
 
