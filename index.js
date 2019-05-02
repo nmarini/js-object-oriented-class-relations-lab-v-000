@@ -20,7 +20,7 @@ class Driver {
     }
 
     passengers(){
-      return this.trips.filter(
+      return this.trips().filter(
         function(trip){
           return trip.passengers();
         }.bind(this)
