@@ -29,12 +29,12 @@ class Driver {
 let passengerId = 0;
 
 class Passenger {
-    constructor(name, driver) {
+    constructor(name) {
         this.id = ++passengerId;
         this.name = name;
-        if (driver) {
-            this.driverId = driver.id;
-        }
+        // if (driver) {
+        //     this.driverId = driver.id;
+        // }
         store.passengers.push(this);
     }
     setDriver(driver) {
