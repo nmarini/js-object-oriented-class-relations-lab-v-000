@@ -34,4 +34,3 @@ class Trip {
     this.passengerId = passenger.id
   }
 }
- 
