@@ -23,8 +23,8 @@ class Driver {
       return this.trips.filter(
         function(trip){
           return trip.passengers();
-        }.bind(this)
-      );
+        }
+      ).bind(this);
     }
 }
 
