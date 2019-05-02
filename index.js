@@ -19,7 +19,7 @@ class Passenger {
         // if (driver) {
         //     this.driverId = driver.id;
         // }
-        store.items.push(this);
+        store.passengers.push(this);
     }
     setUser(user) {
         this.userId = user.id;
